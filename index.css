@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h3, strong{
+    color: forestgreen;
+}
+
+.header .images{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+	justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.header p{
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 84, 153);
+    background-color: #FCEBB6;
+}
+
+body{
+    background-color: lightyellow;
+    margin-bottom: 0;
+
+}
+
+
+
+#map{
+    margin-top: 10px;
+    height: 760px;    
+    border: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: darkslategray;
+    overflow: hidden;
+}
+
+#outer{
+    display: flex;
+}
+#outer #form,
+#outer #map {
+    width: 50%;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+
+}
+
+
+iframe{
+    border-radius: 20px;
+    height: 760px;
+
+
+}
+legend{
+    background-color:rgb(110, 110, 110);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+fieldset{
+    border-radius: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: darkslategray;
+    background-color: rgb(194, 194, 194);
+    font-weight: bold;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 6px 12px;
+    margin: 6px 0px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color:darkslategray;
+    resize: none;
+}
+
+.radio {
+    text-transform: capitalize;
+    display:inline-block;
+    vertical-align: text-top;
+    cursor: pointer;
+}
+
+.radio + .radio{
+    margin-left: 25px;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 60px auto; 
+}
+
+.header{
+    margin: 40px 60px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #FCEBB6;
+    color:forestgreen;
+    text-align: center;
+    
+  }
+.footer p{
+    margin-bottom: 0px;
+}
+
+a:link, a:visited {
+    background-color: #FCEBB6;
+    color: black;
+    border: 2px solid green;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:10px;
+  }
+  
+a:hover, a:active {
+    background-color: forestgreen;
+    color: white;
+}
+
+#outer #form button{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+#outer #form button:hover{
+    background-color: #555555;
+    color: white;
+}
+
